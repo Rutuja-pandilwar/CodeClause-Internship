@@ -10,7 +10,7 @@ from fer import FER
 import matplotlib.pyplot as plt 
 
 #Path to input image
-imgloc = '/content/jpg'
+imgloc = '/content/WhatsApp Image 2024-04-27 at 2.02.32 PM.jpeg'
 
 #Reading the image from location and store in variable 'input_image' by using 'imread' function
 input_image = cv2.imread(imgloc)
@@ -52,4 +52,3 @@ plt.imshow(result_image)
 print("Emotion :", emotion_name)
 #Remove the axis labels using plt.axis('off')
 plt.axis('off')
-
